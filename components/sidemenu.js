@@ -92,8 +92,8 @@ const SideMenu = () => {
                     <h1 className="text-slate-500 text-[1.1rem] pt-[50px] pl-[1.5em]">CORE</h1>
 
                     <div className="flex flex-row  items-center pt-[2em] pl-[1.5em]">
-                        <IoIosSpeedometer size={25} color='#e4e4e4' />
-                        <h2 className="text-[#e4e4e4] text-[1.6rem] pl-[0.5em]">Dashboard</h2>
+                        <IoIosSpeedometer size={23} color='#e4e4e4' />
+                        <h2 className="text-[#e4e4e4] text-[1.5rem] pl-[0.5em]">Dashboard</h2>
                     </div>
 
                     <div>
@@ -101,21 +101,21 @@ const SideMenu = () => {
 
                         <div className="flex flex-row items-center pt-[2em] pl-[1.5em] justify-between">
                             <div className="flex flex-row items-center ">
-                                <RiLayout5Line size={25} color='#94a3b8' />
-                                <h2 className="text-slate-400 text-[1.5rem] pl-[0.5em]">Layouts</h2>
+                                <RiLayout5Line size={23} color='#94a3b8' />
+                                <h2 className="text-slate-400 text-[1.4rem] pl-[0.5em]">Layouts</h2>
                             </div>
                             <div className="pr-[30px]">
-                                <BsChevronRight size={21} color='#94a3b8' />
+                                <BsChevronRight size={19} color='#94a3b8' />
                             </div>
                         </div>
 
                         <div className="flex flex-row items-center pt-[2em] pl-[1.5em] justify-between">
                             <div className="flex flex-row items-center ">
-                                <BsBook size={25} color='#94a3b8' />
-                                <h2 className="text-slate-400 text-[1.5rem] pl-[0.5em]">Pages</h2>
+                                <BsBook size={23} color='#94a3b8' />
+                                <h2 className="text-slate-400 text-[1.4rem] pl-[0.5em]">Pages</h2>
                             </div>
                             <div className="pr-[30px]">
-                                <BsChevronRight size={21} color='#94a3b8' />
+                                <BsChevronRight size={19} color='#94a3b8' />
                             </div>
                         </div>
                     </div>
@@ -124,13 +124,13 @@ const SideMenu = () => {
                         <h1 className="text-slate-500 text-[1.1rem] pt-[50px] pl-[1.5em]">ADDONS</h1>
 
                         <div className="flex flex-row items-center pt-[2em] pl-[1.5em]">
-                            <RiLayout5Line size={25} color='#94a3b8' />
-                            <h2 className="text-slate-400 text-[1.5rem] pl-[0.5em]">Charts</h2>
+                            <RiLayout5Line size={23} color='#94a3b8' />
+                            <h2 className="text-slate-400 text-[1.4rem] pl-[0.5em]">Charts</h2>
                         </div>
 
                         <div className="flex flex-row items-center pt-[2em] pl-[1.5em]">
-                            <BsBook size={25} color='#94a3b8' />
-                            <h2 className="text-slate-400 text-[1.5rem] pl-[0.5em]">Tables</h2>
+                            <BsBook size={23} color='#94a3b8' />
+                            <h2 className="text-slate-400 text-[1.4rem] pl-[0.5em]">Tables</h2>
                         </div>
                     </div>
 
