@@ -14,7 +14,7 @@ const ChartPage = () => {
 
             <div className="mt-[106px] lg:mt-0 px-[1.6em] h-screen w-full bg-white overflow-y-scroll ease-in duration-300">
                 <div className="lg:hidden fixed top-0 pb-[10px] pt-[36px] w-full bg-white">
-                    <h1 className="text-[2rem]">Dashboard</h1>
+                    <h1 className="text-[1.7rem]">Dashboard</h1>
                 </div>
 
                 <h1 className="hidden lg:block text-[3rem]">Dashboard</h1>
@@ -34,7 +34,7 @@ const ChartPage = () => {
                     <div className="h-[400px] w-full lg:w-[49%] bg-white border-2 border-gray-300">
                         <div className="h-[70px] w-full bg-gray-50 pt-3 pl-6 border-b-2 border-gray-300 flex flex-row items-center">
                             <AiOutlineBarChart size={25} color='#1e293b' />
-                            <h5 className="text-[1.4rem] lg:text-[1.5rem] pl-2">Area Chart Example</h5>
+                            <h5 className="text-[1.3rem] lg:text-[1.5rem] pl-2">Area Chart Example</h5>
                         </div>
                         <div>
                             <AreaChart />
@@ -44,7 +44,7 @@ const ChartPage = () => {
                     <div className="h-[400px] w-full lg:w-[49%] bg-white border-2 border-gray-300 mt-5 lg:mt-0">
                         <div className="h-[70px] w-full bg-gray-50 pt-3 pl-6 border-b-2 border-gray-300 flex flex-row items-center">
                             <AiOutlineBarChart size={25} color='#1e293b' />
-                            <h5 className="text-[1.4rem] lg:text-[1.5rem] pl-2">Bar Chart Example</h5>
+                            <h5 className="text-[1.3rem] lg:text-[1.5rem] pl-2">Bar Chart Example</h5>
                         </div>
                         <div>
                             <BarChart />
@@ -55,7 +55,7 @@ const ChartPage = () => {
                 <div className="w-full bg-white border-2 border-gray-300 mt-[8em] mb-[2em]">
                     <div className="w-full bg-gray-50 pt-3 pl-6 border-b-2  border-gray-300 flex flex-row items-center">
                         <FaTable size={20} color='#1e293b' />
-                        <h5 className="text-[1.5rem] pl-2">DataTables Example</h5>
+                        <h5 className="text-[1.3rem] lg:text-[1.5rem] pl-2">DataTables Example</h5>
                     </div>
                     <div>
                         <DataTables />
