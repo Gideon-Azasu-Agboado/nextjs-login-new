@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import ChartPage from '../components/chartpage'
-import Login from '../components/login'
 
 
 export default function Home() {
