@@ -1,11 +1,11 @@
 import React from "react";
-import Card from "./card";
-import SideMenu from "./sidemenu";
-import BarChart from "./barchart";
-import AreaChart from "./areachart";
+import Card from "../components/card";
+import SideMenu from "../components/sidemenu";
+import BarChart from "../components/barchart";
+import AreaChart from "../components/areachart";
 import { AiOutlineBarChart } from 'react-icons/ai'
 import { FaTable } from 'react-icons/fa'
-import DataTables from "./table";
+import DataTables from "../components/table";
 
 const ChartPage = () => {
     return (

@@ -32,7 +32,9 @@ const Login = () => {
                     </div>
 
                     <div className="relative mb-[8em} sm:mb-0">
-                        <button className="h-[60px] lg:h-[40px] xl:h-[60px] w-[40%] lg:w-[30%] xl:w-[40%] bg-[#E1B2AB] transition-all duration-500 hover:duration-500 hover:bg-[#DBA39A] hover:transition-all rounded-lg ml-[30%] lg:ml-[35%] xl:ml-[30%] mt-[2em] text-[1.5rem] xl:text-[1.5rem] lg:text-[1.2rem] text-[#FEFCF3]">Login</button>
+                        <button className="h-[60px] lg:h-[40px] xl:h-[60px] w-[40%] lg:w-[30%] xl:w-[40%] bg-[#E1B2AB] transition-all duration-500 hover:duration-500 hover:bg-[#DBA39A] hover:transition-all rounded-lg ml-[30%] lg:ml-[35%] xl:ml-[30%] mt-[2em] text-[1.5rem] xl:text-[1.5rem] lg:text-[1.2rem] text-[#FEFCF3]">
+                            <Link href="/chartpage">Login</Link>
+                        </button>
                     </div>
                 </div>
 
